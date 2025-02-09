@@ -13,7 +13,7 @@ export const ProductProvider = ({ children }) => {
        const result = await response.data;
       setEvents(result.events);
     } catch (error) {
-      console.error("Error fetching events", error);
+      console.error("Error fetching events", error.message);
     }
   };
 

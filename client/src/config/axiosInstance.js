@@ -4,7 +4,6 @@ const axiosInstance = axios.create({
   baseURL: import.meta.env.VITE_BACKEND_URL,
 });
 
-
 axiosInstance.interceptors.request.use((config) => {
   let token = null;
   try {
