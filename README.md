@@ -70,5 +70,4 @@ npm run dev
 ### Real-Time Updates
 - WebSockets used for live attendee tracking.
 
-Feel free to contribute or suggest improvements!
-
+Feel free to contribute or suggest improvements.
